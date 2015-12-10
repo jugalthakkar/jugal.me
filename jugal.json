@@ -1,0 +1,419 @@
+﻿{
+  "personalDetails": {
+    "dateOfBirth": "Aug 26, 1988",
+    "placeOfBirth": "Mumbai, India",
+    "displayName": "Jugal Thakkar",
+    "keySkills": [
+      "C#",
+      "JavaScript",
+      "MVC"
+    ],
+    "objective": "This quick learning agile evangelist with a knack for problem solving is seeking to contribute towards building quality next generation applications that leverage his analytical aptitude and technical expertise.",
+    "website": "http://jugal.me",
+    "blog": "http://ahumbleopinion.com",
+    "blogTitle": "A Humble Opinion",
+    "email": "career@jugal.me",
+    "linkedIn": "https://www.linkedin.com/in/jugalthakkar",
+    "gender": "Male",
+    "phone": "+91 9967 239 560",
+    "city": "Mumbai",
+    "country": "India",
+    "firstName": "Jugal",
+    "lastName": "Thakkar",
+    "backgroundImage": "http://jugal.me/images/rubik_CUBE_by_ironnam.jpg",
+    "favoriteQuote": "काबील बनो काबील कामियाबी तो झक मार के तुम्हारे पीछे आएगी\nPursue excellence, and success will follow",
+    "favoriteQuoteAuthor": "3 Idiots",
+    "favoriteQuoteSource": "https://www.youtube.com/watch?v=8WCKkEasIAA"
+  },
+  "skillSet": [
+    {
+      "title": "JavaScript",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "UX",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "C#",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "HTML5",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "jQuery",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "HighCharts",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "Java",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "SQL",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "CSS",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "AJAX",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "RequireJs",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "React.js",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "AngularJS",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "Ember.js",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "Android",
+      "score": 7,
+      "comment": ""
+    },
+     {
+      "title": "Bootstrap",
+      "score": 7,
+      "comment": ""
+    },
+     {
+      "title": "Semantic UI",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "JSF",
+      "score": 9,
+      "comment": ""
+    },
+     {
+      "title": "Data Visualization",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "PrimeFaces",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "XAML",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "SilverLight",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "MVC",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "MVVM",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "Design Patterns",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "Agile",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "Scrum",
+      "score": 5,
+      "comment": ""
+    },
+    {
+      "title": "Continuous Integration",
+      "score": 8,
+      "comment": ""
+    },
+    {
+      "title": "Jenkins",
+      "score": 9,
+      "comment": ""
+    },
+    {
+      "title": "Unit Testing",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "TDD",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "Lean Six Sigma",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "Lean Startup",
+      "score": 7,
+      "comment": ""
+    },
+    {
+      "title": "FastWorks",
+      "score": 7,
+      "comment": ""
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelors of Engineering",
+      "major": "Computer Science",
+      "university": "University of Mumbai",
+      "start": "Aug 1, 2006",
+      "end": "Jun 30, 2010",
+      "grade": "First Class",
+      "id": "e1"
+    }
+  ],
+  "workHistory": [
+    {
+      "company": "General Electric",
+      "business": "GE Energy",
+      "title": "Software Engineer",
+      "start": "Jul 6,2010",
+      "end": "Sep 30, 2012",
+      "id": "w1"
+    },
+    {
+      "company": "General Electric",
+      "business": "GE Energy",
+      "title": "Advanced Software Engineer",
+      "start": "Oct 1, 2012",
+      "end": "Mar 31, 2014",
+      "id": "w2"
+    },
+    {
+      "company": "General Electric",
+      "business": "GE Power & Water",
+      "title": "Lead Engineer/Technologist",
+      "start": "Apr 1, 2014",
+      "inProgress": true,
+      "id": "w3"
+    },
+    {
+      "hobby": true,
+      "id": "w4"
+    },
+    {
+      "company": "Bhugol GIS Pvt Ltd, SINE Incubatee Company IIT Bombay",
+      "title": "Intern",
+      "start": "Jul 1, 2009",
+      "end": "Apr 30, 2010",
+      "id": "w5"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Web Gram Server",
+      "start": "Jul 1, 2009",
+      "end": "Apr 30, 2010",
+      "role": "Owner & Developer",
+      "responsibility": "TBD",
+      "highlights": [
+        "Quickly learned the various technologies and data formats involved and established processes to exchange data amongst them"
+      ],
+      "techStack": [
+        "Java",
+        "MySQL Spatial",
+        "OpenGL",
+        "Shape Files"
+      ],
+      "id": "p1",
+      "associations": [
+        "w5"
+      ]
+    },
+    {
+      "title": "Mumbai University Result Tracker",
+      "start": "Jul 1, 2010",
+      "inProgress": true,
+      "role": "Owner & Developer",
+      "responsibility": "TBD",
+      "highlights": [
+        "A hobby project to track and collate all Mumbai University examination results to one page",
+        "Catering multiple platforms with its various versions viz. rich Silverlight, light mobile, native Android app, RSS feeds, Facebook and Twitter publishing",
+        "Received over 2,50,000 page hits and used by over 6000 students"
+      ],
+      "techStack": [
+        "PHP",
+        "MySQL",
+        "EmberJS",
+        "JavaScript",
+        "SemanticUI",
+        "Responsive",
+        "SilverLight",
+        "Android",
+        "Java",
+        "RSS",
+        "GitHub",
+        "cURL"
+      ],
+      "link": "http://muresulttracker.tk/archive/v1",
+      "id": "p2",
+      "associations": [
+        "w4"
+      ]
+    },
+    {
+      "title": "3D Charting Prototype",
+      "start": "Jul 6, 2010",
+      "end": "Jul 31, 2010",
+      "role": "Owner & Developer",
+      "responsibility": "TBD",
+      "highlights": [
+        "Quickly learned SilverLight & applied it to prototype 3D charts as a Proof of Concept for FAM",
+        "Live demo attracted huge appreciation from top management and fruitfully brought more funds"
+      ],
+      "techStack": [
+        "SilverLight",
+        "XAML",
+        "C#",
+        ".NET 4",
+        "Visual Studio 2010",
+        "Computer Graphic"
+      ],
+      "id": "p3",
+      "associations": [
+        "w1"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Fulfillment Excellence",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Stay Lean To Go Fast",
+      "when": "March 2015",
+      "who": "MS&A Operational Excellence",
+      "where": "GE India Engineering Operations ERD",
+      "description": "For the significant contribution by me & my team throughout the year",
+      "imageThumbnail": "images/thumb/fulfillment_excellence.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Speed, Productivity & Quality",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Expertise",
+      "when": "March 2014",
+      "who": "MS&A Infrastructure - SOA",
+      "where": "GE Power & Water MTC Awards",
+      "description": "For delivering on all the milestones having challenging time-lines & scope, with excellent quality",
+      "imageThumbnail": "images/thumb/speed_execution.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Emerging Technologist",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Expertise",
+      "when": "March 2013",
+      "who": "Jugal Thakkar",
+      "where": "GE Power & Water MTC ERD",
+      "description": "For displaying extraordinary technical skills",
+      "imageThumbnail": "images/thumb/emerging_technologist_1.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Rookie Of The Year",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Innovation",
+      "when": "March 2011",
+      "who": "Jugal Thakkar",
+      "where": "GE Energy MTC ERD",
+      "description": "For standing out in a team where other developers have min 4.5 yrs of experience",
+      "imageThumbnail": "images/thumb/rookie_year.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Emerging Technologist",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Expertise",
+      "when": "March 2012",
+      "who": "Jugal Thakkar",
+      "where": "GE Energy MTC ERD",
+      "description": "For being aware of and keeping up with the latest in technology and spreading awareness to the team",
+      "imageThumbnail": "images/thumb/emerging_technologist_2.jpg",
+      "type": "silver"
+    },
+    {
+      "title": "Speed & Productivity",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Expertise",
+      "when": "March 2012",
+      "who": "M&D Fleet Anomaly Manager",
+      "where": "GE Energy MTC ERD",
+      "description": "For always being responsive and agile to adapt all the changes required by the product owner",
+      "imageThumbnail": "images/thumb/speed_productivity.jpg",
+      "type": "silver"
+    }
+  ],
+  "certifications": [],
+  "trainings": [],
+  "referenceLinks": [],
+  "abbreviations": {
+    "MS&A": "Monitoring Software & Analytics",
+    "ERD": "Engineering Recognition Day",
+    "MTC": "Mumbai Technology Center",
+    "M&D": "Monitoring & Diagnostics"
+  }
+}
