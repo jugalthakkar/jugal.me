@@ -1,6 +1,6 @@
 ﻿{
   "personalDetails": {
-    "dateOfBirth": "Jan 1, 1988",
+    "dateOfBirth": "Aug 26, 1988",
     "placeOfBirth": "Mumbai, India",
     "displayName": "Jugal Thakkar",
     "keySkills": [
@@ -12,10 +12,10 @@
     "website": "http://jugal.me",
     "blog": "http://ahumbleopinion.com",
     "blogTitle": "A Humble Opinion",
-    "email": "email@example.com",
+    "email": "career@jugal.me",
     "linkedIn": "https://www.linkedin.com/in/jugalthakkar",
     "gender": "Male",
-    "phone": "+91 987 654 3210",
+    "phone": "+91 9967 239 560",
     "city": "Mumbai",
     "country": "India",
     "firstName": "Jugal",
@@ -101,12 +101,12 @@
       "score": 7,
       "comment": ""
     },
-     {
+    {
       "title": "Bootstrap",
       "score": 7,
       "comment": ""
     },
-     {
+    {
       "title": "Semantic UI",
       "score": 7,
       "comment": ""
@@ -116,7 +116,7 @@
       "score": 9,
       "comment": ""
     },
-     {
+    {
       "title": "Data Visualization",
       "score": 9,
       "comment": ""
@@ -264,6 +264,60 @@
       "id": "p1",
       "associations": [
         "w5"
+      ]
+    },
+    {
+      "title": "Mumbai University Result Tracker",
+      "start": "Jul 1, 2010",
+      "inProgress": true,
+      "role": "Owner & Developer",
+      "responsibility": "TBD",
+      "highlights": [
+        "A hobby project to track and collate all Mumbai University examination results to one page",
+        "Catering multiple platforms with its various versions viz. rich Silverlight, light mobile, native Android app, RSS feeds, Facebook and Twitter publishing",
+        "Received over 2,50,000 page hits and used by over 6000 students"
+      ],
+      "techStack": [
+        "PHP",
+        "MySQL",
+        "EmberJS",
+        "JavaScript",
+        "SemanticUI",
+        "Responsive",
+        "SilverLight",
+        "Android",
+        "Java",
+        "RSS",
+        "GitHub",
+        "cURL"
+      ],
+      "link": "http://muresulttracker.tk/archive/v1",
+      "id": "p2",
+      "associations": [
+        "w4"
+      ]
+    },
+    {
+      "title": "3D Charting Prototype",
+      "start": "Jul 6, 2010",
+      "end": "Jul 31, 2010",
+      "role": "Owner & Developer",
+      "responsibility": "TBD",
+      "highlights": [
+        "Quickly learned SilverLight & applied it to prototype 3D charts as a Proof of Concept for FAM",
+        "Live demo attracted huge appreciation from top management and fruitfully brought more funds"
+      ],
+      "techStack": [
+        "SilverLight",
+        "XAML",
+        "C#",
+        ".NET 4",
+        "Visual Studio 2010",
+        "Computer Graphic"
+      ],
+      "id": "p3",
+      "associations": [
+        "w1"
       ]
     }
   ],
