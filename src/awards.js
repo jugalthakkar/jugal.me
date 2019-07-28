@@ -30,10 +30,11 @@ class Award extends React.Component {
 
 class AwardList extends React.Component {
 
-  render() {    
+  render() {
     var awards = _.map(this.props.awards, function (award) {
       return (
         <Award category={award.category}
+          key={award.title + award.when}
           title={award.title}
           event={award.where}
           time={award.when}

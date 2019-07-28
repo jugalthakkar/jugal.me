@@ -55,6 +55,7 @@ class TimeLine extends React.Component {
         const events = _.map(sortedEvents, function (event) {
             return (
                 <Event
+                    key={event.title}
                     type={event.type}
                     title={event.title}
                     start={event.start}

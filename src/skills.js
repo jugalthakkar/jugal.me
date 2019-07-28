@@ -10,7 +10,7 @@ class Skill extends React.Component {
         <span className={(this.props.color || "blue") + " skill ui header " + (this.props.size === "big" ? "small jlarge" : "tiny jsmall")}>{this.props.title}</span>
       </div>
       <p>
-        <div className={"ui star rating " + (this.props.size === "big" ? "huge" : "mini")} data-rating={this.props.score}></div>
+        <span className={"ui star rating " + (this.props.size === "big" ? "huge" : "mini")} data-rating={this.props.score}></span>
       </p>
     </div>
   }
@@ -24,17 +24,17 @@ class SkillList extends React.Component {
     var i = 0;
     var primarySkills = _.map(skills.slice(0, 3), function (skill) {
       return (
-        <Skill score={skill.score} title={skill.title} size="big" color={appConfig.colors[i++ % appConfig.colors.length]} />
+        <Skill key={skill.title} score={skill.score} title={skill.title} size="big" color={appConfig.colors[i++ % appConfig.colors.length]} />
       );
     });
     var secondarySkills = _.map(skills.slice(3, 15), function (skill) {
       return (
-        <Skill score={skill.score} title={skill.title} size="small" color={appConfig.colors[i++ % appConfig.colors.length]} />
+        <Skill key={skill.title} score={skill.score} title={skill.title} size="small" color={appConfig.colors[i++ % appConfig.colors.length]} />
       );
     });
     var otherSkills = _.map(skills.slice(15), function (skill) {
       return (
-        <div className="ui label skill">{skill.title}</div>
+        <div  key={skill.title} className="ui label skill">{skill.title}</div>
       );
     });
     return (
