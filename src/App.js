@@ -1,8 +1,8 @@
 import React from 'react';
-import MyApp from './mainapp';
+import Main from './main';
 
 function App() {
-  return <MyApp url="jugal.json" />;
+  return <Main url="jugal.json" />;
 }
 
 export default App;

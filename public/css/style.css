@@ -96,7 +96,7 @@ h1.ui.header {
         height: 100vh;
         overflow-y: hidden;
     }
-    #reactRoot {
+    #root {
         overflow: hidden;
         overflow-y: hidden;
     }

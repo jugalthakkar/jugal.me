@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import appConfig from './config';
+import { Rating } from 'semantic-ui-react';
 
 class Skill extends React.Component {
 
@@ -9,9 +10,15 @@ class Skill extends React.Component {
       <div className={(this.props.size === "big" ? "jlarge" : "jsmall") + " circle"}>
         <span className={(this.props.color || "blue") + " skill ui header " + (this.props.size === "big" ? "small jlarge" : "tiny jsmall")}>{this.props.title}</span>
       </div>
-      <p>
-        <span className={"ui star rating " + (this.props.size === "big" ? "huge" : "mini")} data-rating={this.props.score}></span>
-      </p>
+
+      <Rating
+        icon="star"
+        size={(this.props.size === "big" ? "huge" : "mini")}
+        rating={this.props.score}
+        maxRating={10}
+        disabled
+      />
+
     </div>
   }
 }
@@ -34,7 +41,7 @@ class SkillList extends React.Component {
     });
     var otherSkills = _.map(skills.slice(15), function (skill) {
       return (
-        <div  key={skill.title} className="ui label skill">{skill.title}</div>
+        <div key={skill.title} className="ui label skill">{skill.title}</div>
       );
     });
     return (
