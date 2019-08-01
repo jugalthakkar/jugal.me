@@ -19,14 +19,7 @@ class App extends React.Component {
     }
     componentDidMount() {
         this.loadData();
-    }
-    componentDidUpdate() {
-        // $('.ui.rating').rating({
-        //     maxRating: 10
-        // }).rating('disable');
-        // //$('.ui.sticky').sticky();
-        // scroll.init();
-    }
+    }    
     getGravatarUrl() {
         return "http://www.gravatar.com/avatar/1b1cea99bc1123198e1b4dfd68160471.jpg?s=64";
     }
