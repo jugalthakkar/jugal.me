@@ -29,29 +29,37 @@ class SkillList extends React.Component {
   render() {
     var skills = this.props.skills || [];
     var i = 0;
-    var primarySkills = _.map(skills.slice(0, 3), function (skill) {
+    var primarySkills = _.map(skills.primary, function (skill) {
       return (
         <Skill key={skill.title} score={skill.score} title={skill.title} size="big" color={appConfig.colors[i++ % appConfig.colors.length]} />
       );
     });
-    var secondarySkills = _.map(skills.slice(3, 15), function (skill) {
+    var secondarySkills = _.map(skills.secondary, function (skill) {
       return (
         <Skill key={skill.title} score={skill.score} title={skill.title} size="small" color={appConfig.colors[i++ % appConfig.colors.length]} />
       );
     });
-    var otherSkills = _.map(skills.slice(15), function (skill) {
+    var nonTechnicalSkills = _.map(skills.nonTechnical, function (skill) {
+      return (
+        <Skill key={skill.title} score={skill.score} title={skill.title} size="small" color={appConfig.colors[i++ % appConfig.colors.length]} />
+      );
+    });
+    var otherSkills = _.map(skills.others, function (skill) {
       return (
         <div key={skill.title} className="ui label skill">{skill.title}</div>
       );
     });
     return (
-      <div className="jskills ui inverted vertical segment">
+      <div className="jskills ui inverted vertical segment" id="skills">
         <div className="ui top left massive attached inverted red label">Skills</div>
         <div className="ui three column center aligned stackable page grid">
           {primarySkills}
         </div>
         <div className="ui six column center aligned doubling page grid">
           {secondarySkills}
+        </div>
+        <div className="ui six column center aligned doubling page grid non-technical">
+          {nonTechnicalSkills}
         </div>
         <div className="ui center aligned doubling page grid">
           <div className="ui labels">

@@ -20,19 +20,23 @@ class Bio extends React.Component {
             <div className="ui page grid">
                 <div className="row">
                     <div className="column">
-                        {paragraphs}
+
+
                         <p>
-                            I am a <em>C# professional, JavaScript expert and an Android fan boy</em>. I forge user-friendly enterprise web applications and enjoy data crunching &amp; visualization. I am passionate about mobile and web technologies &amp; appreciate open source.
-                    </p>
-                        <p>
-                            I have been a preacher of Highcharts since I got acquainted with it at work & now attempt to help developers on <a href="http://stackoverflow.com/tags/highcharts/topusers" rel="noopener noreferrer" target="_blank">Stack Overflow</a> with my little knowledge. I occasionally blog about Highcharts &amp; have reviewed <a href="http://bit.ly/jugalbook2" rel="noopener noreferrer" target="_blank">Highcharts Essentials</a> &amp; <a href="http://bit.ly/jugalbook1" rel="noopener noreferrer" target="_blank">Highcharts Cookbook</a> for <a href="https://www.packtpub.com/" rel="noopener noreferrer" target="_blank">Packt Publishing</a>.
-                    </p>
-                        <p>
-                            I relish playing Ping-Pong, solving puzzles or trying my luck at a Bowling alley. To know of what I learn, experiment and explore visit my blog, <a href="http://ahumbleopinion.com/" rel="noopener noreferrer" target="_blank">A Humble Opinion</a>.
-                    </p>
-                        <p>
-                            I am also proud to be the creator &amp; developer of <a href="http://muresulttracker.tk/" target="_blank" rel="noopener noreferrer">Mumbai University Result Tracker</a>
+                            I am a passionate engineer at heart who loves to build simple & elegant products. I have a very strong <a href="#career">full stack experience of over 9 years</a> with both startups and large organisations. My programming journey started even earlier, in 2006, when I built several <a href="https://ahumbleopinion.com/the-classic-snake-game/" rel="noopener noreferrer" target="_blank">C++ games</a> during my engineering days. I have devoted a fair share of my career into architecture & designing of applications and solutions.
                         </p>
+
+                        <p>
+                            Programming is also a hobby & I throughly enjoy immersing myself & writing code every day. I guess I am gifted and can pick up new <a href="#skills">technlogies</a> quickly and easily switch from Java to Javascript to CSS to SQL to C# in seconds. The <a href="#awards">numerous awards</a> and <a href="#career">quick promotions</a> that I have received throughout my career are testament to my quality of work and expertise. These days I am hooked on to Reactjs & AWS. 
+                            </p>                            
+
+                        <p>
+                            I believe in sharing knowledge and have garnered a modest reputation of <a href="https://jug.al/stackoverflow" rel="noopener noreferrer" target="_blank">~12,000 on Stack Overflow</a> for my contributions. This led me to the honor of reviewing two books, <a href="http://bit.ly/jugalbook2" rel="noopener noreferrer" target="_blank">Highcharts Essentials</a> &amp; <a href="http://bit.ly/jugalbook1" rel="noopener noreferrer" target="_blank">Highcharts Cookbook</a>, for Packt Publishing. I am the proud creator of <a href="https://muresulttracker.tk/" target="_blank" rel="noopener noreferrer">Mumbai University Result Tracker</a> and <a href="https://tincheck.tk/" target="_blank" rel="noopener noreferrer">Tin Check</a>, serving to the student and accounting communities respectively.
+                            </p>
+
+                        <p>
+                            I am a big advocate for Agile development and have been part of and led high performing agile teams. I have been a Certified Scrum Master and Certified Scrum Product Owner until October 2018. I relish playing Ping-Pong, solving puzzles or trying my luck at a Bowling alley. I occassionally blog @ <a href="http://ahumbleopinion.com/" rel="noopener noreferrer" target="_blank"> A Humble Opinion</a>.
+                            </p>
                     </div>
 
                 </div>

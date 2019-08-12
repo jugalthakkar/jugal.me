@@ -13,13 +13,13 @@ class App extends React.Component {
     }
 
     async loadData() {
-        const response = await fetch(new Request(this.props.url));
+        const response = await fetch(this.props.url);
         const data = await response.json();
         this.setState({ data });
     }
     componentDidMount() {
         this.loadData();
-    }    
+    }
     getGravatarUrl() {
         return "http://www.gravatar.com/avatar/1b1cea99bc1123198e1b4dfd68160471.jpg?s=64";
     }
@@ -65,6 +65,22 @@ class App extends React.Component {
         var quotes = this.state.data.personalDetails.favoriteQuote.split('\n');
         return (
             <div className="homepage ui segments">
+                {/* <div class="ui menu">
+                    <a class="active item" href="#awards">
+                        <i class="home icon"></i> Awards
+  </a>
+                    <a class="item" href="#career">
+                        <i class="mail icon"></i> History
+  </a>
+                    <div class="right menu">
+                        <div class="item">
+                            <div class="ui transparent icon input">
+                                <input type="text" placeholder="Search..." />
+                                <i class="search link icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
                 <section className="cd-section visible">
                     <Header
                         title={this.state.data.personalDetails.displayName}
@@ -92,7 +108,7 @@ class App extends React.Component {
                 <section className="cd-section">
                     <Footer />
                 </section>
-                <nav className="cd-vertical-nav">
+                {/* <nav className="cd-vertical-nav">
                     <div className="ui vertical icon buttons">
                         <div className="ui button purple cd-prev inactive" >
                             <i className="arrow up icon"></i>
@@ -101,7 +117,7 @@ class App extends React.Component {
                             <i className="arrow down icon"></i>
                         </div>
                     </div>
-                </nav>
+                </nav> */}
             </div>
         );
     }
