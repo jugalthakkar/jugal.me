@@ -3,15 +3,16 @@
     "dateOfBirth": "Aug 26, 1988",
     "placeOfBirth": "Mumbai, India",
     "displayName": "Jugal Thakkar",
+    "shortBio": "passionate engineer & architect",
     "keySkills": [
-      "C#",
       "JavaScript",
-      "MVC"
+      "AWS",
+      "React"
     ],
     "objective": "This quick learning agile evangelist with a knack for problem solving is seeking to contribute towards building quality next generation applications that leverage his analytical aptitude and technical expertise.",
-    "website": "http://jugal.me",
-    "blog": "http://ahumbleopinion.com",
-    "blogTitle": "A Humble Opinion",
+    "website": "https://jug.al",
+    "blog": "https://ahumbleopinion.com",
+    "blogTitle": "passionate engineer & architect",
     "email": "career@jugal.me",
     "linkedIn": "https://www.linkedin.com/in/jugalthakkar",
     "gender": "Male",
@@ -21,182 +22,200 @@
     "firstName": "Jugal",
     "lastName": "Thakkar",
     "backgroundImage": "http://jugal.me/images/rubik_CUBE_by_ironnam.jpg",
-    "favoriteQuote": "काबील बनो काबील कामियाबी तो झक मार के तुम्हारे पीछे आएगी\nPursue excellence, and success will follow",
+    "favoriteQuote": "काबील बनो काबील कामियाबी तो झक मार के तुम्हारे पीछे आएगी\nPursue excellence, and success will have to follow",
     "favoriteQuoteAuthor": "3 Idiots",
     "favoriteQuoteSource": "https://www.youtube.com/watch?v=8WCKkEasIAA"
   },
-  "skillSet": [
-    {
-      "title": "JavaScript",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "UX",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "C#",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "HTML5",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "jQuery",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "HighCharts",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "Java",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "SQL",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "CSS",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "AJAX",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "RequireJs",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "React.js",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "AngularJS",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Ember.js",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Android",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Bootstrap",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Semantic UI",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "JSF",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "Data Visualization",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "PrimeFaces",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "XAML",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "SilverLight",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "MVC",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "MVVM",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "Design Patterns",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "Agile",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "Scrum",
-      "score": 5,
-      "comment": ""
-    },
-    {
-      "title": "Continuous Integration",
-      "score": 8,
-      "comment": ""
-    },
-    {
-      "title": "Jenkins",
-      "score": 9,
-      "comment": ""
-    },
-    {
-      "title": "Unit Testing",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "TDD",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Lean Six Sigma",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "Lean Startup",
-      "score": 7,
-      "comment": ""
-    },
-    {
-      "title": "FastWorks",
-      "score": 7,
-      "comment": ""
-    }
-  ],
+  "skillSet": {
+    "primary": [
+      {
+        "title": "Architecture",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "AWS",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "React",
+        "score": 9,
+        "comment": ""
+      }
+    ],
+    "secondary": [
+      {
+        "title": "JavaScript",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "Java",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "C#",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "SQL",
+        "score": 8,
+        "comment": ""
+      },
+      {
+        "title": "HTML5",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "CSS",
+        "score": 8,
+        "comment": ""
+      }
+    ],
+    "nonTechnical": [
+      {
+        "title": "Scrum",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Design Patterns",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "Unit Testing",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "Micro Services",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Data Viz",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Analytics",
+        "score": 7,
+        "comment": ""
+      }
+    ],
+    "others": [
+      {
+        "title": "Lambda",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "S3",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "EC2",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "SQS",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "SNS",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Python",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Redis",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "AngularJS",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "jQuery",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "HighCharts",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "Android",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Bootstrap",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Semantic UI",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "PHP",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Agile",
+        "score": 8,
+        "comment": ""
+      },
+      {
+        "title": "Continuous Integration",
+        "score": 8,
+        "comment": ""
+      },
+      {
+        "title": "Jenkins",
+        "score": 9,
+        "comment": ""
+      },
+      {
+        "title": "TDD",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "Lean Six Sigma",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "CSM",
+        "score": 7,
+        "comment": ""
+      },
+      {
+        "title": "CSPO",
+        "score": 7,
+        "comment": ""
+      }
+    ]
+  },
   "education": [
     {
       "title": "Bachelors of Engineering",
@@ -230,6 +249,37 @@
       "business": "GE Power & Water",
       "title": "Lead Engineer/Technologist",
       "start": "Apr 1, 2014",
+      "end": "Sep 30, 2015",
+      "id": "w6"
+    },
+    {
+      "company": "General Electric",
+      "business": "GE Power & Water",
+      "title": "Sr. Software Engineer",
+      "start": "Oct 1, 2015",
+      "end": "Dec 30, 2016",
+      "id": "w3"
+    },
+    {
+      "company": "General Electric",
+      "business": "GE Power & Water",
+      "title": "Sr. Data & Information Architect",
+      "start": "Jan 1, 2017",
+      "end": "May 31, 2018",
+      "id": "w3"
+    },
+    {
+      "company": "Demazi Technologies (for Workplace Fabric)",
+      "title": "Lead Engineer",
+      "start": "Jun 1, 2018",
+      "end": "Dec 31, 2018",
+      "id": "w3"
+    },
+    {
+      "company": "Workplace Fabric",
+      "business": "GE Power & Water",
+      "title": "Head of Development Operations",
+      "start": "Jan 1, 2019",
       "inProgress": true,
       "id": "w3"
     },
@@ -323,6 +373,76 @@
   ],
   "achievements": [
     {
+      "title": "FreeCaptain",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Leadership",
+      "when": "Aug 2019",
+      "who": "Jugal Thakkar",
+      "where": "Freespace Awards 2019",
+      "description": "For Demonstrated Leadership",
+      "imageThumbnail": "images/thumb/freecaptain.png",
+      "type": "gold"
+    },
+    {
+      "title": "FreeCaptain",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Leadership",
+      "when": "Oct 2018",
+      "who": "Jugal Thakkar",
+      "where": "Freespace Awards 2018",
+      "description": "For Demonstrated Leadership",
+      "imageThumbnail": "images/thumb/freecaptain.png",
+      "type": "gold"
+    },    
+    {
+      "title": "Product Excellence",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Stay Lean To Go Fast",
+      "when": "March 2017",
+      "who": "MS&A Operational Excellence",
+      "where": "GE India Engineering Operations ERD",
+      "description": "For the significant contribution by me & my team throughout the year",
+      "imageThumbnail": "images/thumb/2017_product_excellence.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Learn and Adapt to Win",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Empower and Inspire",
+      "when": "Nov 2016",
+      "who": "Operations Optimization",
+      "where": "GE Power MTC ERD",
+      "description": "For efforts on the Software Global Solutions for multiple customers",
+      "imageThumbnail": "images/thumb/2016_erd.jpg",
+      "type": "gold"
+    },
+    {
+      "title": "Long Service Award",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Long Service",
+      "when": "Jul 2015",
+      "who": "Jugal Thakkar",
+      "where": "GE Power",
+      "description": "For 5 years of service",
+      "imageThumbnail": "images/thumb/2015_long_service.jpg",
+      "type": "gold"
+    },
+    {
       "title": "Fulfillment Excellence",
       "associations": [
         "w3",
@@ -404,6 +524,20 @@
       "where": "GE Energy MTC ERD",
       "description": "For always being responsive and agile to adapt all the changes required by the product owner",
       "imageThumbnail": "images/thumb/speed_productivity.jpg",
+      "type": "silver"
+    },
+    {
+      "title": "20+ Minor Awards",
+      "associations": [
+        "w3",
+        "p1"
+      ],
+      "category": "Expertise, Innovation & Clear Thinking",
+      "when": "2010-18",
+      "who": "Jugal Thakkar",
+      "where": "GE",
+      "description": "For various instances of demonstrated expertise, innovation & clear thinking",
+      "imageThumbnail": "images/thumb/ge_other.jpg",
       "type": "silver"
     }
   ],
