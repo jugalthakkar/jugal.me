@@ -92,18 +92,9 @@ h1.ui.header {
 } */
 
 @media only screen and (min-width: 1050px) {
-    #home .ui.vertical.segment {
-        height: 100vh;
-        overflow-y: hidden;
-    }
-    #root {
-        overflow: hidden;
-        overflow-y: hidden;
-    }
-    #home {
-        overflow: hidden;
-        overflow-y: hidden;
-    }
+     #home .ui.vertical.segment {
+        height: 100vh;        
+    }    
     #home nav {
         position: fixed;
         z-index: 1;
