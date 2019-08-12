@@ -129,20 +129,20 @@ h1.ui.header {
         margin: auto;
         width: 50%;
     }
-    #home .card {
+    /* #home .card {
         margin: 1.8em 20px;
-    }
-    .jaward.ui.card {
+    } */
+    /* .jaward.ui.card {
         height: 70vh;
-    }
+    } */
 }
 @media only screen and (max-width: 1050px) {
     #home nav {
         display: none;
     }
-    #home .card {
+    /* #home .card {
         margin: 1.8em auto;
-    }
+    } */
 }
 
 #home .masthead {
