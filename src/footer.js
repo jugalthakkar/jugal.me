@@ -1,22 +1,29 @@
 import React from 'react';
-
+import {
+  Container, Icon, Button
+} from 'semantic-ui-react';
+import Link from './link';
 class Footer extends React.Component {
 
-    render() {
-        return <div className="jfooter ui vertical inverted purple segment">
-        <div className="ui page grid temp">
-          <div className="column">
-            <p>
-              More @ <a href="https://jug.al/linkedin" target="_blank" rel="noopener noreferrer">Linked In</a> | <a href="https://jug.al/stackoverflow" rel="noopener noreferrer" target="_blank">Stack Overflow</a> | <a href="https://jug.al/github" rel="noopener noreferrer" target="_blank">GitHub</a>
-            </p>
-            <p>
-              Reach Me @ mail[at]jugal[dot]me
-            </p>
-            {/* <div className="ui message">All views expressed are my own and do not reflect those of my employer</div> */}
-          </div>
-        </div>
-      </div>
-    }
+  render() {
+    return <footer>
+      <Container>
+        <Link href="https://jug.al/linkedin">
+          <Button color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
+        </Link>
+        <Link href="https://jug.al/stackoverflow">
+          <Button color='orange'><Icon name='stack overflow' /> Stack Overflow</Button>
+        </Link>
+        <Link href="https://jug.al/github">
+          <Button color='grey'><Icon name='github' /> GitHub</Button>
+        </Link>
+
+        <Button color='green' disabled>
+          <Icon name='mail' /> mail[at]jugal[dot]me
+        </Button>
+      </Container>
+    </footer >
+  }
 }
 
 export default Footer;

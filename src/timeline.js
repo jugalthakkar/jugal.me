@@ -1,73 +1,54 @@
 import React from 'react';
-import appConfig from './config';
 import _ from 'lodash';
-
-class Event extends React.Component {
-
-    render() {
-        let eventIcon;
-        switch (this.props.type) {
-            case 'work':
-                eventIcon = 'suitcase';
-                break;
-            case 'education':
-                eventIcon = 'student';
-                break;
-            case 'birthday':
-                eventIcon = 'birthday';
-                break;
-            default:
-                eventIcon = '';
-        }
-        const diffInMS = (this.props.inProgress ? Date.now() : this.props.end.getTime()) - this.props.start.getTime();
-        const durationMonths = diffInMS / (1000 * 60 * 60 * 24 * 365 / 12);
-        const durationYears = Math.floor(durationMonths / 12);
-        const addtionalMonths = Math.floor(durationMonths % 12)
-
-        return (
-            <div className="ui header">
-
-                <i className={"icon " + eventIcon}></i>
-
-                <div className="content">
-                    <div className="summary">
-                        {this.props.title}
-
-                    </div>
-                    <div className="sub header">
-                        <i className="wait icon"></i>
-                        {appConfig.monthsShort[this.props.start.getMonth()] + ", " + this.props.start.getFullYear()}
-                        {this.props.inProgress ? "" : " - " + (appConfig.monthsShort[this.props.end.getMonth()] + ", " + this.props.end.getFullYear())}
-                        &nbsp;({durationYears > 0 ? `${durationYears}y${addtionalMonths}m` : `${addtionalMonths}m`})
-                        <br />
-                        <i className="marker icon"></i> {this.props.location} <i className={"flag " + this.props.country}></i>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-}
+import {
+    Header, Grid, GridColumn, Feed, Icon, Flag
+} from 'semantic-ui-react';
+import appConfig from './config';
 
 
 class TimeLine extends React.Component {
 
     renderEventColumn(events) {
-        return <div className="column">
-            <div className="ui feed">
+        return <GridColumn>
+            <Feed>
                 {
-                    _.map(events, event => <Event
-                        key={event.title}
-                        type={event.type}
-                        title={event.title}
-                        start={event.start}
-                        end={event.end}
-                        inProgress={event.inProgress}
-                        location={event.location}
-                        country={event.country} />
+                    _.map(events, event => {
+                        let eventIcon;
+                        switch (event.type) {
+                            case 'work':
+                                eventIcon = 'suitcase';
+                                break;
+                            case 'education':
+                                eventIcon = 'student';
+                                break;
+                            case 'birthday':
+                                eventIcon = 'birthday';
+                                break;
+                            default:
+                                eventIcon = '';
+                        }
+                        const diffInMS = (event.inProgress ? Date.now() : event.end.getTime()) - event.start.getTime();
+                        const durationMonths = diffInMS / (1000 * 60 * 60 * 24 * 365 / 12);
+                        const durationYears = Math.floor(durationMonths / 12);
+                        const additionalMonths = Math.floor(durationMonths % 12)
+
+                        return (<Header icon={eventIcon} key={event.title}>
+                            {event.title}
+                            <Header.Subheader>
+                                <Icon name="clock outline" />
+                                {appConfig.monthsShort[event.start.getMonth()] + ", " + event.start.getFullYear()}
+                                {event.inProgress ? "" : " - " + (appConfig.monthsShort[event.end.getMonth()] + ", " + event.end.getFullYear())}
+                                &nbsp;({durationYears > 0 ? `${durationYears}y${additionalMonths}m` : `${additionalMonths}m`})
+                            <br />
+                                <Icon name="map marker alternate" /> {event.location} <Flag name={event.country} />
+                            </Header.Subheader>
+                        </Header>
+                        );
+                    }
                     )
                 }
-            </div>
-        </div>
+            </Feed>
+        </GridColumn>
     }
 
     render() {
@@ -79,19 +60,14 @@ class TimeLine extends React.Component {
         });
 
         const midway = sortedEvents.length / 2;
-        return (
-            <div className="jevents ui white vertical segment" id="career">
-                <div className="ui top left massive attached blue label">History</div>
-                <div className="ui two column stackable page grid">
-                    {
-                        this.renderEventColumn(sortedEvents.filter((event, index) => index < midway))
-                    }                     
-                    {
-                        this.renderEventColumn(sortedEvents.filter((event, index) => index >= midway))
-                    }
-                </div>
-            </div>
-        );
+        return (<Grid container stackable columns="2">
+            {
+                this.renderEventColumn(sortedEvents.filter((event, index) => index < midway))
+            }
+            {
+                this.renderEventColumn(sortedEvents.filter((event, index) => index >= midway))
+            }
+        </Grid>);
     }
 }
 export default TimeLine;

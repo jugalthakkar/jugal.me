@@ -50,8 +50,7 @@ class SkillList extends React.Component {
       );
     });
     return (
-      <div className="jskills ui inverted vertical segment" id="skills">
-        <div className="ui top left massive attached inverted red label">Skills</div>
+      <div className="jskills">
         <div className="ui three column center aligned stackable page grid">
           {primarySkills}
         </div>

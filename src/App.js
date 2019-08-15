@@ -1,13 +1,16 @@
 import React from 'react';
+import {
+  SegmentGroup
+} from 'semantic-ui-react';
 import SkillList from './skills';
 import Bio from './bio';
-import Header from './header';
+import PageHeader from './PageHeader';
+import PageSegment from './PageSegment';
 import AwardList from './awards';
 import Footer from './footer';
 import TimeLine from './timeline';
 import _ from 'lodash';
 import 'semantic-ui-css/semantic.min.css';
-import './App.css';
 
 const DATA_SOURCE = "jugal.json";
 class App extends React.Component {
@@ -28,8 +31,17 @@ class App extends React.Component {
   }
   render() {
     if (!this.state.data) {
-      return (<div className="jhomepage">
-        <img className="loader" src="images/Material-Design-Preloader.gif" alt="loader" />
+      return (<div>
+        <img src="images/Material-Design-Preloader.gif" alt="loader"
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            width: 510,
+            height: 46,
+            marginTop: -23,
+            marginLeft: -255
+          }} />
       </div>);
     }
     var personalEvents = [{
@@ -67,25 +79,9 @@ class App extends React.Component {
     var avatar = this.state.data.personalDetails.avatar || this.getGravatarUrl();
     var quotes = this.state.data.personalDetails.favoriteQuote.split('\n');
     return (
-      <div className="homepage ui segments">
-        {/* <div class="ui menu">
-                    <a class="active item" href="#awards">
-                        <i class="home icon"></i> Awards
-  </a>
-                    <a class="item" href="#career">
-                        <i class="mail icon"></i> History
-  </a>
-                    <div class="right menu">
-                        <div class="item">
-                            <div class="ui transparent icon input">
-                                <input type="text" placeholder="Search..." />
-                                <i class="search link icon"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-        <section className="cd-section visible">
-          <Header
+      <SegmentGroup className="homepage">
+        <PageSegment id="header" fullScreen inverted>
+          <PageHeader
             title={this.state.data.personalDetails.displayName}
             subTitle={this.state.data.personalDetails.blogTitle}
             subTitleUrl={this.state.data.personalDetails.blog}
@@ -95,33 +91,23 @@ class App extends React.Component {
             quoteAuthor={this.state.data.personalDetails.favoriteQuoteAuthor}
             quoteSource={this.state.data.personalDetails.favoriteQuoteSource}
             backgroundImage={this.state.data.personalDetails.backgroundImage} />
-        </section>
-        <section className="cd-section">
+        </PageSegment>
+        <PageSegment id="bio" label="Bio" labelColor="purple">
           <Bio />
-        </section>
-        <section className="cd-section">
+        </PageSegment>
+        <PageSegment inverted id="skills" label="Skills" labelColor="red">
           <SkillList skills={this.state.data.skillSet} />
-        </section>
-        <section className="cd-section">
+        </PageSegment>
+        <PageSegment id="career" label="History" labelColor="blue">
           <TimeLine events={_.union(workEvents, educationEvents, personalEvents)} />
-        </section>
-        <section className="cd-section">
+        </PageSegment>
+        <PageSegment inverted id="awards" label="Awards" labelColor="green">
           <AwardList awards={this.state.data.achievements} />
-        </section>
-        <section className="cd-section">
+        </PageSegment>
+        <PageSegment id="footer">
           <Footer />
-        </section>
-        {/* <nav className="cd-vertical-nav">
-                    <div className="ui vertical icon buttons">
-                        <div className="ui button purple cd-prev inactive" >
-                            <i className="arrow up icon"></i>
-                        </div>
-                        <div className="ui button purple cd-next">
-                            <i className="arrow down icon"></i>
-                        </div>
-                    </div>
-                </nav> */}
-      </div>
+        </PageSegment>
+      </SegmentGroup >
     );
   }
 }

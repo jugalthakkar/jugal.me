@@ -1,6 +1,6 @@
 import React from 'react';
 
-class XHeader extends React.Component {
+class Link extends React.Component {
     render() {
         const content = this.props.text || this.props.children || this.props.href;
         if (this.props.href.indexOf('#') !== 0) {
@@ -10,4 +10,4 @@ class XHeader extends React.Component {
     }
 };
 
-export default XHeader;
+export default Link;
