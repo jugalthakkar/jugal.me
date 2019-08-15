@@ -7,7 +7,7 @@ class Award extends React.Component {
     return <div className={"jaward ui card " + (this.props.type === "gold" ? "yellow" : "")}>
       <div className="content">
         <a href={this.props.imageThumbnail} rel="noopener noreferrer" target="_blank">
-          <img className="right floated mini ui image" src={this.props.imageThumbnail} alt={this.props.imageThumbnail} style={{ height: 100 }} />
+          <img className="right floated mini ui image" src={this.props.imageThumbnail} alt={this.props.imageThumbnail} style={{ height: 100, width: 100 }} />
         </a>
         <span className="header">{this.props.title}</span>
         <div className="meta">

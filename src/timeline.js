@@ -85,7 +85,7 @@ class TimeLine extends React.Component {
                 <div className="ui two column stackable page grid">
                     {
                         this.renderEventColumn(sortedEvents.filter((event, index) => index < midway))
-                    }
+                    }                     
                     {
                         this.renderEventColumn(sortedEvents.filter((event, index) => index >= midway))
                     }

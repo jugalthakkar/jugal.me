@@ -1,18 +1,8 @@
 #home .ui.rating.star .icon {
     color: gray;
 }
-.masthead .quote {
-    position: absolute;
-    color: white!important;
-    bottom: 18px;
-    text-align: right;
-    right: 50px;
-}
-.masthead .quote .header {
-    color: white;
-}
 .ui.vertical.segment {
-    padding: 20px 0px 100px 0px;
+    padding: 5em 0px 8em 0px;
 }
 .circle {
     color: #fff;
@@ -93,7 +83,7 @@ h1.ui.header {
 
 @media only screen and (min-width: 1050px) {
      #home .ui.vertical.segment {
-        height: 100vh;        
+        /* height: 100vh;         */
     }    
     #home nav {
         position: fixed;
@@ -116,14 +106,8 @@ h1.ui.header {
         border-radius: 15vh;
         line-height: 15vh;
     }
-    .jbio .row {
-        margin-top: 15vh;
-    }
-    .jbio .row p {
-        font-size: 1.6em;
-    }
     .jevents .column {
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
     }
     .jevents .ui.feed {
         margin: auto;
@@ -145,24 +129,14 @@ h1.ui.header {
     } */
 }
 
-#home .masthead {
-    padding: 1em 0 0 0;
-    /* padding: 0 0 0.8em 0; */
-}
+
 .masthead .header-background {
-    z-index: -2;
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
 }
 .attached.label {
     text-transform: uppercase;
 }
-.jbio p {
-    font-size: 1.3em;
-}
+
 #home {
     /*background-color: gray;*/
 }

@@ -6,6 +6,7 @@ import AwardList from './awards';
 import Footer from './footer';
 import TimeLine from './timeline';
 import _ from 'lodash';
+import 'semantic-ui-css/semantic.min.css';
 
 class App extends React.Component {
     state = {
