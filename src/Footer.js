@@ -4,8 +4,8 @@ import {
 } from 'semantic-ui-react';
 import Link from './Link';
 class Footer extends React.Component {
-
   render() {
+    const email = 'career[at]jugal[dot]me';
     return <footer>
       <Container>
         <Link href="https://jug.al/linkedin">
@@ -15,11 +15,10 @@ class Footer extends React.Component {
           <Button color='orange'><Icon name='stack overflow' /> Stack Overflow</Button>
         </Link>
         <Link href="https://jug.al/github">
-          <Button color='grey'><Icon name='github' /> GitHub</Button>
+          <Button color='black'><Icon name='github' /> GitHub</Button>
         </Link>
-
-        <Button color='green' disabled>
-          <Icon name='mail' /> mail[at]jugal[dot]me
+        <Button color='green' onClick={() => window.location = `mailto:${email}`.replace('[dot]', '.').replace('[at]', '@')}>
+          <Icon name='mail' /> {email}
         </Button>
       </Container>
     </footer >

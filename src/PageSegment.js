@@ -8,10 +8,11 @@ class PageSegment extends React.Component {
         const fullScreenStyles = {
             height: '100vh',
             padding: 0
-        };        
+        };
         return <Segment inverted={this.props.inverted} vertical
+            as="section"
             id={this.props.id}
-            style={this.props.fullScreen ? fullScreenStyles : {padding: '5em 0 7em 0'}}>
+            style={this.props.fullScreen ? fullScreenStyles : { padding: '5em 0 7em 0' }}>
             {
                 this.props.fullScreen ?
                     this.props.children :
