@@ -2,15 +2,16 @@ import React from 'react';
 import {
   SegmentGroup
 } from 'semantic-ui-react';
-import SkillList from './skills';
-import Bio from './bio';
-import PageHeader from './PageHeader';
-import PageSegment from './PageSegment';
-import AwardList from './awards';
-import Footer from './footer';
-import TimeLine from './timeline';
 import _ from 'lodash';
 import 'semantic-ui-css/semantic.min.css';
+
+import SkillList from './Skills';
+import Bio from './Bio';
+import PageHeader from './PageHeader';
+import PageSegment from './PageSegment';
+import AwardList from './AwardList';
+import Footer from './Footer';
+import TimeLine from './TimeLine';
 
 const DATA_SOURCE = "jugal.json";
 class App extends React.Component {
@@ -79,7 +80,7 @@ class App extends React.Component {
     var avatar = this.state.data.personalDetails.avatar || this.getGravatarUrl();
     var quotes = this.state.data.personalDetails.favoriteQuote.split('\n');
     return (
-      <SegmentGroup className="homepage">
+      <SegmentGroup>
         <PageSegment id="header" fullScreen inverted>
           <PageHeader
             title={this.state.data.personalDetails.displayName}

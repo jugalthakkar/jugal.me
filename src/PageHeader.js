@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Container, Header, Image
 } from 'semantic-ui-react';
-import Link from './link';
+import Link from './Link';
 
 
 class PageHeader extends React.Component {

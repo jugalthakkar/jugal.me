@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Container, Icon, Button
 } from 'semantic-ui-react';
-import Link from './link';
+import Link from './Link';
 class Footer extends React.Component {
 
   render() {

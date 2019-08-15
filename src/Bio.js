@@ -3,7 +3,7 @@ import {
     Container
 } from 'semantic-ui-react';
 
-import Link from './link';
+import Link from './Link';
 
 
 class Bio extends React.Component {

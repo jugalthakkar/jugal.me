@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Container, Image, Card, Icon, Label
 } from 'semantic-ui-react';
-import Link from './link';
+import Link from './Link';
 import _ from 'lodash';
 
 class AwardList extends React.Component {
